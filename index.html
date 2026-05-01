@@ -402,6 +402,27 @@
             position: absolute;
             left: 0;
         }
+        .organizer-card {
+            background: #111;
+            border-radius: 24px;
+            padding: 30px;
+            text-align: center;
+            border: 1px solid #53CBF3;
+            margin-top: 30px;
+        }
+        .organizer-photo {
+            width: 100%;
+            max-width: 500px;
+            height: auto;
+            border-radius: 16px;
+            margin-bottom: 20px;
+            border: 2px solid #53CBF3;
+        }
+        .organizer-caption {
+            color: #53CBF3;
+            font-size: 18px;
+            margin-top: 10px;
+        }
         .schedule-time {
             background: #111;
             padding: 20px;
@@ -504,18 +525,19 @@
         <div class="container">
             <div class="row">
                 <div class="col-2">
-                    <p data-key="hero_date" style="color: #53CBF3; font-size: 22px; font-weight: bold;">Семинар в Клуж-Напока 13-14 июня 2026 г. | 09:00 - 15:00</p>
+                    <p data-key="hero_date" style="color: #53CBF3; font-size: 22px; font-weight: bold;">Практикум в Клуж-Напока 13-14 июня 2026 г.</p>
                     <h1 style="font-size: 52px; margin-top: 15px;"><span data-key="hero_title1">РЕАЛЬНАЯ</span><br><span style="color: #53CBF3;" data-key="hero_title2">САМООБОРОНА</span></h1>
+                    <p data-key="hero_slogan" style="color: #53CBF3; font-size: 24px; margin-top: 10px; letter-spacing: 2px;">Цель • Задача • Решение</p>
                     <h3 data-key="hero_subtitle" style="color: #aaa;">Autoapărare Reală</h3>
-                    <p data-key="hero_desc" style="margin: 25px 0;">Получите навыки прикладного рукопашного боя и контроля личной безопасности в экстремальных ситуациях под руководством опытного инструктора на двухдневном семинаре-интенсиве</p>
-                    <button class="btn btn-large scroll-to-form-btn" data-key="hero_btn">Записаться на семинар</button>
+                    <p data-key="hero_desc" style="margin: 25px 0;">Получите навыки прикладного рукопашного боя и контроля личной безопасности в экстремальных ситуациях под руководством опытного инструктора на двухдневном практикуме-интенсиве</p>
+                    <button class="btn btn-large scroll-to-form-btn" data-key="hero_btn">Записаться на практикум</button>
                 </div>
                 <div class="col-2"></div>
             </div>
         </div>
     </section>
 
-    <!-- Что такое Реальная Самооборона -->
+    <!-- Что такое Реальная Самооборона (с фото справа) -->
     <section class="section section-dark">
         <div class="container">
             <h2 data-key="what_title">Что такое Реальная Самооборона?<br><span style="font-size: 20px; color: #5478FF;">Autoapărare Reală</span></h2>
@@ -530,14 +552,17 @@
                         <li data-key="list4">Психобиомеханика и стрессоустойчивость: управление собой в эмоционально нестабильной стрессовой обстановке.</li>
                     </ul>
                 </div>
+                <div class="col-2">
+                    <img src="selfdefense-photo.jpg" alt="Real Self-Defense" style="width: 100%; max-width: 400px; border-radius: 20px; border: 2px solid #53CBF3;" onerror="this.src='https://via.placeholder.com/400x400?text=Photo'">
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Программа семинара -->
+    <!-- Программа практикума -->
     <section class="section">
         <div class="container">
-            <h2 data-key="program_title">Программа семинара</h2>
+            <h2 data-key="program_title">Программа практикума</h2>
             <div class="program-card"><h4 data-key="topic1_title">ТЕМА 1</h4><p data-key="topic1_desc">Подготовка тела. Работа на плоскости пола. Стойка и передвижения. Специально-подготовительные упражнения нижней акробатики: кувырки, падения, перекаты. Снятие страха и напряжения. Формирование базовых двигательных навыков — фундамент всей Системы.</p></div>
             <div class="program-card"><h4 data-key="topic2_title">ТЕМА 2</h4><p data-key="topic2_desc">Выведение из равновесия. Контакт с противником. Зоны контакта. Воздействие без грубой физической силы. Как лишить противника устойчивости оптимальными усилиями.</p></div>
             <div class="program-card"><h4 data-key="topic3_title">ТЕМА 3</h4><p data-key="topic3_desc">Освобождение от захватов. Противодействие физическому воздействию в захватах. Базовые навыки, которые позволят использовать силу противника против него самого.</p></div>
@@ -567,7 +592,7 @@
     <section class="section">
         <div class="container" style="text-align: center;">
             <div class="video-container"><iframe src="https://kinescope.io/embed/hPFB2c1rzsVpakFc5T2yfH" frameborder="0" allowfullscreen></iframe></div>
-            <p data-key="video_caption">Видеоотчет одного из семинаров по Системе Кадочникова</p>
+            <p data-key="video_caption">Видеоотчет одного из практикумов по Системе Кадочникова</p>
             <button class="btn scroll-to-form-btn" data-key="hero_btn">Записаться</button>
         </div>
     </section>
@@ -601,7 +626,7 @@
     <!-- Инструктор -->
     <section class="section">
         <div class="container">
-            <h2 data-key="instructor_title">Инструктор семинара</h2>
+            <h2 data-key="instructor_title">Инструктор практикума</h2>
             <div class="instructor-card">
                 <img class="instructor-photo" src="nikola-en.jpg" onerror="this.src='https://via.placeholder.com/180x180?text=NE'">
                 <div class="instructor-name" data-key="instructor_name">Nikola En</div>
@@ -616,8 +641,18 @@
         </div>
     </section>
 
-    <!-- Расписание и место -->
+    <!-- ОРГАНИЗАТОР (НОВЫЙ БЛОК С ФОТО) -->
     <section class="section section-dark">
+        <div class="container">
+            <div class="organizer-card">
+                <img class="organizer-photo" src="organizer-photo.jpg" alt="Organizator cu Kadochnikov" onerror="this.src='https://via.placeholder.com/500x300?text=Organizator+photo'">
+                <div class="organizer-caption" data-key="organizer_caption">Инструктор с Кадочниковым</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Расписание и место -->
+    <section class="section">
         <div class="container">
             <h2 data-key="schedule_title">Расписание и место проведения</h2>
             <div class="row">
@@ -636,12 +671,12 @@
     </section>
 
     <!-- ФОРМА РЕГИСТРАЦИИ -->
-    <section class="section" id="register-section">
+    <section class="section section-dark" id="register-section">
         <div class="container" style="max-width: 700px; text-align: center;">
             <h2 data-key="form_title">Форма Регистрации</h2>
-            <p data-key="form_subtitle">2-дневный семинар-интенсив «Реальная Самооборона»</p>
-            <button class="btn btn-large open-popup-btn" style="margin-top: 20px; background:#111FA2; color:white;" data-key="form_btn">ЗАРЕГИСТРИРОВАТЬСЯ НА СЕМИНАР</button>
-            <p style="margin-top: 20px; font-size: 14px;" data-key="form_note">Для участия в семинаре необходимо заполнить форму и зарегистрироваться. Заполните форму и мы свяжемся с вами для подтверждения участия.</p>
+            <p data-key="form_subtitle">2-дневный практикум-интенсив «Реальная Самооборона»</p>
+            <button class="btn btn-large open-popup-btn" style="margin-top: 20px; background:#111FA2; color:white;" data-key="form_btn">ЗАРЕГИСТРИРОВАТЬСЯ НА ПРАКТИКУМ</button>
+            <p style="margin-top: 20px; font-size: 14px;" data-key="form_note">Для участия в практикуме необходимо заполнить форму и зарегистрироваться. Заполните форму и мы свяжемся с вами для подтверждения участия.</p>
         </div>
     </section>
 
@@ -660,7 +695,7 @@
 <!-- POPUP -->
 <div id="popupForm" class="popup-overlay">
     <div class="popup-content"><span class="close-popup">&times;</span>
-        <h3 data-key="popup_title">Регистрация на семинар</h3>
+        <h3 data-key="popup_title">Регистрация на практикум</h3>
         <p data-key="popup_desc">Заполните форму и мы свяжемся с вами</p>
         <form id="registerForm">
             <div class="form-group"><label data-key="popup_name">Имя *</label><input type="text" id="name" required></div>
@@ -681,13 +716,14 @@
 
     const translations = {
         ru: {
+            hero_slogan: "Цель • Задача • Решение",
             logo_name: "Nikola En",
-            logo_subtitle: "Scop • Sarcină • Soluție",
+            logo_subtitle: "Цель • Задача • Решение",
             address_info: "📍 Адрес и все детали будут отправлены вам в WhatsApp после регистрации",
-            hero_date: "Семинар в Клуж-Напока 13-14 июня 2026 г. | 09:00 - 15:00",
+            hero_date: "Практикум в Клуж-Напока 13-14 июня 2026 г.",
             hero_title1: "РЕАЛЬНАЯ", hero_title2: "САМООБОРОНА", hero_subtitle: "Autoapărare Reală",
-            hero_desc: "Получите навыки прикладного рукопашного боя и контроля личной безопасности в экстремальных ситуациях под руководством опытного инструктора на двухдневном семинаре-интенсиве",
-            hero_btn: "Записаться на семинар",
+            hero_desc: "Получите навыки прикладного рукопашного боя и контроля личной безопасности в экстремальных ситуациях под руководством опытного инструктора на двухдневном практикуме-интенсиве",
+            hero_btn: "Записаться на практикум",
             what_title: "Что такое Реальная Самооборона?",
             what_text1: "Реальная Самооборона (Autoapărare Reală) — управление эмоциями, телом и ситуацией. Это способность сохранять контроль над собой и ситуацией в критический момент. Реальная Самооборона основана на алгоритмах русского армейского рукопашного боя, Системы Кадочникова и знаниях о саморегуляции человеческого организма.",
             what_text2: "Это не набор приёмов, а целостная философия движения и система жизнеобеспечения, основанная на законах биомеханики, физики, геометрии, психофизиологии и других наук.",
@@ -695,32 +731,34 @@
             list1: "Нижняя акробатика и рациональное движение: основы выживания и мобильности.",
             list2: "Прикладной рукопашный бой: эффективность как приоритет.",
             list4: "Психобиомеханика и стрессоустойчивость: управление собой в эмоционально нестабильной стрессовой обстановке.",
-            program_title: "Программа семинара",
+            program_title: "Программа практикума",
             topic1_title: "ТЕМА 1", topic1_desc: "Подготовка тела. Работа на плоскости пола. Стойка и передвижения. Специально-подготовительные упражнения нижней акробатики: кувырки, падения, перекаты. Снятие страха и напряжения. Формирование базовых двигательных навыков — фундамент всей Системы.",
             topic2_title: "ТЕМА 2", topic2_desc: "Выведение из равновесия. Контакт с противником. Зоны контакта. Воздействие без грубой физической силы. Как лишить противника устойчивости оптимальными усилиями.",
             topic3_title: "ТЕМА 3", topic3_desc: "Освобождение от захватов. Противодействие физическому воздействию в захватах. Базовые навыки, которые позволят использовать силу противника против него самого.",
             topic4_title: "ТЕМА 4", topic4_desc: "Защита от ударов. Противодействие нападению с холодным оружием и другими предметами. Принципы построения защиты от ударов. Использование теоретических форм физики, механики, геометрии для построения встречи удара. Рассмотрение психофизических процессов.",
-            video_caption: "Видеоотчет одного из семинаров по Системе Кадочникова",
+            video_caption: "Видеоотчет одного из практикумов по Системе Кадочникова",
             benefits_title: "Преимущества Реальной Самообороны",
-            benefit1: "Физическое развитие", benefit2: "Духовное развитие", benefit3: "Intelectual",
+            benefit1: "Физическое развитие", benefit2: "Духовное развитие", benefit3: "Интеллектуальное развитие",
             phys1: "Развитие ловкости", phys2: "Развитие гибкости и силы", phys3: "Повышение выносливости", phys4: "Укрепление мышечного корсета",
             spirit1: "Самодисциплина", spirit2: "Преодоление страха и тревожности", spirit3: "Формирование волевого ресурса", spirit4: "Опора на собственные силы",
             intel1: "Пространственное мышление", intel2: "Аналитические способности", intel3: "Скорость мышления и прогнозирование", intel4: "Развитие сознания и внимания",
-            instructor_title: "Инструктор семинара", instructor_name: "Nikola En",
+            instructor_title: "Инструктор практикума", instructor_name: "Nikola En",
             inst1: "Ученик и последователь Системы Кадочникова с 2011 года", inst2: "Участник семинаров Системы Кадочникова и закрытых встреч", inst3: "Инструктор системы самообороны для детей и взрослых", inst4: "Коуч, регрессолог, исследователь возможностей человека", inst5: "Основатель детской онлайн школы. Миссия школы - раскрыть внутренний потенциал детей и объединять семьи во всем мире",
-            schedule_title: "Расписание и место проведения", schedule_subtitle: "📅 Расписание:", address: "Адрес проведения семинара: г. Клуж-Напока, Румыния (центр)", travel2: "📍 Точный адрес будет отправлен после регистрации", schedule_day1: "<strong>13 июня:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 июня:</strong> 09:00 - 15:00", schedule_total: "<strong>2 дня интенсивного обучения</strong>",
-            form_title: "Форма Регистрации", form_subtitle: "2-дневный семинар-интенсив «Реальная Самооборона»", form_btn: "ЗАРЕГИСТРИРОВАТЬСЯ НА СЕМИНАР", form_note: "Для участия в семинаре необходимо заполнить форму и зарегистрироваться. Заполните форму и мы свяжемся с вами для подтверждения участия.",
-            popup_title: "Регистрация на семинар", popup_desc: "Заполните форму и мы свяжемся с вами", popup_name: "Имя *", popup_surname: "Фамилия", popup_email: "Email *", popup_phone: "Телефон (WhatsApp / Telegram) *", popup_submit: "Отправить Заявку",
+            organizer_title: "Организатор", organizer_caption: "Инструктор с Кадочниковым",
+            schedule_title: "Расписание и место проведения", schedule_subtitle: "📅 Расписание:", travel2: "📍 Точный адрес будет отправлен после регистрации", schedule_day1: "<strong>13 июня:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 июня:</strong> 09:00 - 15:00", schedule_total: "<strong>2 дня интенсивного обучения</strong>",
+            form_title: "Форма Регистрации", form_subtitle: "2-дневный практикум-интенсив «Реальная Самооборона»", form_btn: "ЗАРЕГИСТРИРОВАТЬСЯ НА ПРАКТИКУМ", form_note: "Для участия в практикуме необходимо заполнить форму и зарегистрироваться. Заполните форму и мы свяжемся с вами для подтверждения участия.",
+            popup_title: "Регистрация на практикум", popup_desc: "Заполните форму и мы свяжемся с вами", popup_name: "Имя *", popup_surname: "Фамилия", popup_email: "Email *", popup_phone: "Телефон (WhatsApp / Telegram) *", popup_submit: "Отправить Заявку",
             limited: "⚡ Количество мест строго ограничено ⚡", pricing_title: "Стоимость участия:", price1: "500 RON", price1_note: "первые 7 человек", price2: "600 RON", price2_note: "до 31 мая", price3: "700 RON", price3_note: "1 - 10 июня", price4: "1000 RON", price4_note: "последние 3 дня", hours_info: "📅 13-14 июня | 09:00 - 15:00 (Ежедневно)", book_btn: "🏃 ЗАБРОНИРОВАТЬ МЕСТО 🏃",
             footer_title: "Autoapărare Reală"
         },
         ro: {
+            hero_slogan: "Scop • Sarcină • Soluție",
             logo_name: "Nikola En",
             logo_subtitle: "Scop • Sarcină • Soluție",
             address_info: "📍 Adresa și toate detaliile vă vor fi trimise pe WhatsApp după înregistrare",
-            hero_date: "Seminar în Cluj-Napoca, 13-14 iunie 2026 | 09:00 - 15:00",
+            hero_date: "Practicum în Cluj-Napoca, 13-14 iunie 2026",
             hero_title1: "AUTOAPĂRARE", hero_title2: "REALĂ", hero_subtitle: "Реальная Самооборона",
-            hero_desc: "Dezvoltați abilități de luptă corp la corp aplicată și control al siguranței personale în situații extreme, sub îndrumarea unui instructor experimentat, într-un seminar intensiv de două zile.",
+            hero_desc: "Dezvoltați abilități de luptă corp la corp aplicată și control al siguranței personale în situații extreme, sub îndrumarea unui instructor experimentat, într-un practicum intensiv de două zile.",
             hero_btn: "Înscrieți-vă la practicum",
             what_title: "Ce este Autoapărarea Reală?",
             what_text1: "Autoapărarea Reală — controlul emoțiilor, corpului și situației. Este capacitatea de a păstra controlul asupra ta și a situației în momentul critic. Autoapărarea Reală se bazează pe algoritmi ai luptei corp la corp din armata rusă, Sistemul Kadochnikov și cunoștințele despre autoreglementarea organismului uman.",
@@ -729,30 +767,32 @@
             list1: "Acrobatică joasă și mișcare rațională: bazele supraviețuirii și mobilității.",
             list2: "Luptă corp la corp aplicată: eficiența ca prioritate.",
             list4: "Psihobiomecanică și rezistență la stres: controlul sinelui în situații emoțional instabile.",
-            program_title: "Programul seminarului",
+            program_title: "Programul practicumului",
             topic1_title: "TEMA 1", topic1_desc: "Pregătirea corpului. Lucrul pe planșeu. Poziție și mișcări. Exerciții speciale pregătitoare de acrobatică joasă: tumba, căderi, rostogoliri. Eliminarea fricii și tensiunii. Formarea abilităților motorii de bază — fundamentul întregului Sistem.",
             topic2_title: "TEMA 2", topic2_desc: "Dezechilibrarea. Contactul cu adversarul. Zonele de contact. Acțiune fără forță fizică brută. Cum să privați adversarul de stabilitate cu eforturi optime.",
             topic3_title: "TEMA 3", topic3_desc: "Eliberarea din prize. Contracararea acțiunii fizice în prize. Abilități de bază care vă permit să folosiți forța adversarului împotriva lui.",
             topic4_title: "TEMA 4", topic4_desc: "Protecția împotriva loviturilor. Contracararea atacurilor cu armă albă și alte obiecte. Principii pentru a construi protecția împotriva loviturilor. Utilizarea formelor teoretice ale fizicii, mecanicii, geometriei pentru a întâmpina lovitura. Analiza proceselor psihofizice.",
-            video_caption: "Reportaj video de la unul dintre seminarele Sistemului Kadochnikov",
+            video_caption: "Reportaj video de la unul dintre practicumurile Sistemului Kadochnikov",
             benefits_title: "Avantajele Autoapărării Reale",
             benefit1: "Dezvoltare fizică", benefit2: "Dezvoltare spirituală", benefit3: "Dezvoltare intelectuală",
             phys1: "Dezvoltarea agilității", phys2: "Dezvoltarea flexibilității și forței", phys3: "Creșterea rezistenței", phys4: "Întărirea corsetului muscular",
             spirit1: "Autodisciplină", spirit2: "Depășirea fricii și anxietății", spirit3: "Formarea resursei volitive", spirit4: "Bazat pe propriile forțe",
             intel1: "Gândire spațială", intel2: "Abilități analitice", intel3: "Viteza de gândire și prognozare", intel4: "Dezvoltarea conștiinței și atenției",
-            instructor_title: "Instructorul seminarului", instructor_name: "Nikola En",
+            instructor_title: "Instructorul practicumului", instructor_name: "Nikola En",
             inst1: "Elev și urmaș al Sistemului Kadochnikov din 2011", inst2: "Participant la seminarele Sistemului Kadochnikov și întâlniri private", inst3: "Instructor al sistemului de autoapărare pentru copii și adulți", inst4: "Coach, regresolog, cercetător al potențialului uman", inst5: "Fondator al școlii online pentru copii. Misiunea școlii - de a dezvălui potențialul interior al copiilor și de a uni familiile din întreaga lume",
-            schedule_title: "Orarul și locul desfășurării", schedule_subtitle: "📅 Orar:", address: "Adresa seminarului: Cluj-Napoca, Romania (centru)", travel2: "📍 Adresa exactă va fi trimisă după înregistrare", schedule_day1: "<strong>13 iunie:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 iunie:</strong> 09:00 - 15:00", schedule_total: "<strong>2 zile de învățare intensivă</strong>",
-            form_title: "Formular de înregistrare", form_subtitle: "Seminar intensiv de 2 zile „Autoapărare Reală”", form_btn: "ÎNREGISTREAZĂ-TE LA PRACTICUM", form_note: "Pentru a participa la seminar, completați formularul și vă vom contacta pentru confirmare.",
-            popup_title: "Înregistrare la seminar", popup_desc: "Completați formularul și vă vom contacta", popup_name: "Prenume *", popup_surname: "Nume de familie", popup_email: "Email *", popup_phone: "Telefon (WhatsApp / Telegram) *", popup_submit: "Trimite cererea",
+            organizer_title: "Organizator", organizer_caption: "Instructor cu Kadochnikov",
+            schedule_title: "Orarul și locul desfășurării", schedule_subtitle: "📅 Orar:", travel2: "📍 Adresa exactă va fi trimisă după înregistrare", schedule_day1: "<strong>13 iunie:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 iunie:</strong> 09:00 - 15:00", schedule_total: "<strong>2 zile de învățare intensivă</strong>",
+            form_title: "Formular de înregistrare", form_subtitle: "Practicum intensiv de 2 zile „Autoapărare Reală”", form_btn: "ÎNREGISTREAZĂ-TE LA PRACTICUM", form_note: "Pentru a participa la practicum, completați formularul și vă vom contacta pentru confirmare.",
+            popup_title: "Înregistrare la practicum", popup_desc: "Completați formularul și vă vom contacta", popup_name: "Prenume *", popup_surname: "Nume de familie", popup_email: "Email *", popup_phone: "Telefon (WhatsApp / Telegram) *", popup_submit: "Trimite cererea",
             limited: "⚡ Numărul de locuri este strict limitat ⚡", pricing_title: "Costul participării:", price1: "500 RON", price1_note: "primele 7 persoane", price2: "600 RON", price2_note: "până pe 31 mai", price3: "700 RON", price3_note: "1 - 10 iunie", price4: "1000 RON", price4_note: "ultimele 3 zile", hours_info: "📅 13-14 iunie | 09:00 - 15:00 (Zilnic)", book_btn: "🏃 REZERVĂ-ȚI LOCUL 🏃",
             footer_title: "Autoapărare Reală"
         },
         en: {
+            hero_slogan: "Goal • Task • Solution",
             logo_name: "Nikola En",
-            logo_subtitle: "Scop • Sarcină • Soluție",
+            logo_subtitle: "Goal • Task • Solution",
             address_info: "📍 The address and all details will be sent to you on WhatsApp after registration",
-            hero_date: "Workshop in Cluj-Napoca, June 13-14, 2026 | 09:00 - 15:00",
+            hero_date: "Workshop in Cluj-Napoca, June 13-14, 2026",
             hero_title1: "REAL", hero_title2: "SELF-DEFENSE", hero_subtitle: "Autoapărare Reală",
             hero_desc: "Gain applied hand-to-hand combat and personal safety control skills in extreme situations under the guidance of an experienced instructor at a two-day intensive workshop.",
             hero_btn: "Sign up for training",
@@ -776,7 +816,8 @@
             intel1: "Spatial thinking", intel2: "Analytical skills", intel3: "Speed of thinking and forecasting", intel4: "Development of consciousness and attention",
             instructor_title: "Workshop Instructor", instructor_name: "Nikola En",
             inst1: "Student and follower of the Kadochnikov System since 2011", inst2: "Participant of Kadochnikov System seminars and private meetings", inst3: "Self-defense instructor for children and adults", inst4: "Coach, regressologist, researcher of human potential", inst5: "Founder of an online children's school. The school's mission is to unlock the inner potential of children and unite families around the world",
-            schedule_title: "Schedule and venue", schedule_subtitle: "📅 Schedule:", address: "Workshop address: Cluj-Napoca, Romania (center)", travel2: "📍 Exact address will be sent after registration", schedule_day1: "<strong>June 13:</strong> 09:00 - 15:00", schedule_day2: "<strong>June 14:</strong> 09:00 - 15:00", schedule_total: "<strong>2 days of intensive training</strong>",
+            organizer_title: "Organizer", organizer_caption: "Instructor with Kadochnikov",
+            schedule_title: "Schedule and venue", schedule_subtitle: "📅 Schedule:", travel2: "📍 Exact address will be sent after registration", schedule_day1: "<strong>June 13:</strong> 09:00 - 15:00", schedule_day2: "<strong>June 14:</strong> 09:00 - 15:00", schedule_total: "<strong>2 days of intensive training</strong>",
             form_title: "Registration Form", form_subtitle: "2-day intensive workshop \"Real Self-Defense\"", form_btn: "REGISTER FOR THE TRAINING", form_note: "To participate in the workshop, you must fill out the form and register. Fill out the form and we will contact you to confirm participation.",
             popup_title: "Workshop Registration", popup_desc: "Fill out the form and we will contact you", popup_name: "First name *", popup_surname: "Last name", popup_email: "Email *", popup_phone: "Phone (WhatsApp / Telegram) *", popup_submit: "Submit Application",
             limited: "⚡ Limited number of places! ⚡", pricing_title: "Participation fee:", price1: "500 RON", price1_note: "first 7 people", price2: "600 RON", price2_note: "until May 31", price3: "700 RON", price3_note: "June 1-10", price4: "1000 RON", price4_note: "last 3 days", hours_info: "📅 June 13-14 | 09:00 - 15:00 (Daily)", book_btn: "🏃 BOOK YOUR SPOT 🏃",
@@ -792,7 +833,7 @@
     const popup = document.getElementById('popupForm'); const openBtns = document.querySelectorAll('.open-popup-btn'); const closeBtn = document.querySelector('.close-popup');
     openBtns.forEach(btn => btn.addEventListener('click', () => popup.style.display = 'flex')); closeBtn.addEventListener('click', () => popup.style.display = 'none'); window.addEventListener('click', (e) => { if (e.target === popup) popup.style.display = 'none'; });
     
-    async function sendToTelegram(name, surname, email, phone) { const surnameText = surname ? surname : "не указана"; const message = `🔔 НОВАЯ ЗАЯВКА!\n👤 Имя: ${name}\n👤 Фамилия: ${surnameText}\n📧 Email: ${email}\n📞 Телефон: ${phone}\n🌍 Язык: ${currentLang}\n📍 Семинар: 13-14 июня, Клуж\n📍 Точный адрес и все детали будут отправлены вам в WhatsApp после регистрации.`; const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`; try { const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: CHAT_ID, text: message }) }); return response.ok; } catch (error) { return false; } }
+    async function sendToTelegram(name, surname, email, phone) { const surnameText = surname ? surname : "не указана"; const message = `🔔 НОВАЯ ЗАЯВКА!\n👤 Имя: ${name}\n👤 Фамилия: ${surnameText}\n📧 Email: ${email}\n📞 Телефон: ${phone}\n🌍 Язык: ${currentLang}\n📍 Практикум: 13-14 июня, Клуж\n📍 Точный адрес и все детали будут отправлены вам в WhatsApp после регистрации.`; const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`; try { const response = await fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ chat_id: CHAT_ID, text: message }) }); return response.ok; } catch (error) { return false; } }
     
     document.getElementById('registerForm').addEventListener('submit', async function(e) { e.preventDefault(); const name = document.getElementById('name').value.trim(); const surname = document.getElementById('surname').value.trim(); const email = document.getElementById('email').value.trim(); const phone = document.getElementById('phone').value.trim(); const statusDiv = document.getElementById('formStatus'); if (!name || !email || !phone) { statusDiv.style.display = 'block'; statusDiv.className = 'loading-message error'; statusDiv.innerText = 'Пожалуйста, заполните обязательные поля (Имя, Email, Телефон)!'; setTimeout(() => statusDiv.style.display = 'none', 3000); return; } statusDiv.style.display = 'block'; statusDiv.innerText = 'Отправка...'; const success = await sendToTelegram(name, surname, email, phone); if (success) { statusDiv.className = 'loading-message success'; statusDiv.innerText = '✅ Заявка успешно отправлена! Мы свяжемся с вами в WhatsApp.'; this.reset(); setTimeout(() => { popup.style.display = 'none'; statusDiv.style.display = 'none'; }, 2500); } else { statusDiv.className = 'loading-message error'; statusDiv.innerText = '❌ Ошибка. Попробуйте позже.'; setTimeout(() => statusDiv.style.display = 'none', 4000); } });
     
