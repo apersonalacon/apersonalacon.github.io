@@ -580,8 +580,7 @@
                 <div class="pricing-grid">
                     <div class="price-card highlight"><div class="price" data-key="price1"><s>500 RON</s></div><div class="note" data-key="price1_note">первые 7 человек</div></div>
                     <div class="price-card"><div class="price" data-key="price2"><s>600 RON</s></div><div class="note" data-key="price2_note">до 31 мая</div></div>
-                    <div class="price-card"><div class="price" data-key="price3">700 RON</div><div class="note" data-key="price3_note">1 - 10 июня</div></div>
-                    <div class="price-card"><div class="price" data-key="price4">1000 RON</div><div class="note" data-key="price4_note">последние 3 дня</div></div>
+                    <button class="btn book-btn scroll-to-form-btn" data-key="signup_btn">ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ</button>
                 </div>
                 <div class="hours-info" data-key="hours_info">📅 13-14 июня | 09:00 - 15:00 (Ежедневно)</div>
                 <button class="btn book-btn scroll-to-form-btn" data-key="book_btn">🏃 ЗАБРОНИРОВАТЬ МЕСТО 🏃</button>
@@ -711,7 +710,7 @@
                 <div class="footer-logo"><h3 data-key="footer_title">Autoapărare Reală</h3>
                 <div class="footer-contacts"><p><strong>E-mail:</strong> <a href="mailto:apercon@proton.me">apercon@proton.me</a></p></div>
             </div>
-            <div class="footer-bottom"><p>© 2026 Autoapărare Reală | Реальная Самооборона | Клуж-Напока, Румыния</p></div>
+            <div class="footer-bottom"><p data-key="footer_copyright">© 2026 Autoapărare Reală | Реальная Самооборона | Клуж-Напока, Румыния</p></div>
         </div>
     </footer>
 </div>
@@ -723,9 +722,9 @@
         <p data-key="popup_desc">Заполните форму и мы свяжемся с вами</p>
         <form id="registerForm">
             <div class="form-group"><label data-key="popup_name">Имя *</label><input type="text" id="name" required></div>
-            <div class="form-group"><label data-key="popup_surname">Фамилия <span class="optional-note">(необязательно)</span></label><input type="text" id="surname"></div>
+            <div class="form-group"><label data-key="popup_surname">Фамилия <span class="optional-note" data-key="optional_note">(необязательно)</span></label><input type="text" id="surname"></div>
             <div class="form-group"><label data-key="popup_email">Email *</label><input type="email" id="email" required></div>
-            <div class="form-group"><label data-key="popup_phone">Телефон (WhatsApp / Telegram) *</label><input type="tel" id="phone" required><div class="phone-note">📱 Введите номер с кодом страны</div></div>
+            <div class="form-group"><label data-key="popup_phone">Телефон (WhatsApp / Telegram) *</label><input type="tel" id="phone" required><div class="phone-note" data-key="phone_note">📱 Введите номер с кодом страны</div></div>
             <button type="submit" class="btn" style="width:100%; background:#53CBF3; color:#000;" data-key="popup_submit">Отправить Заявку</button>
             <div id="formStatus" class="loading-message" style="display: none;"></div>
         </form>
@@ -774,10 +773,14 @@
             schedule_title: "Расписание и место проведения", schedule_subtitle: "📅 Расписание:", travel2: "📍 Точный адрес будет отправлен после регистрации", schedule_day1: "<strong>13 июня:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 июня:</strong> 09:00 - 15:00", schedule_total: "<strong>2 дня интенсивного обучения</strong>",
             form_title: "Форма Регистрации", form_subtitle: "2-дневный практикум-интенсив «Реальная Самооборона»", form_btn: "ЗАРЕГИСТРИРОВАТЬСЯ НА ПРАКТИКУМ", form_note: "Для участия в практикуме необходимо заполнить форму и зарегистрироваться. Заполните форму и мы свяжемся с вами для подтверждения участия.",
             popup_title: "Регистрация на практикум", popup_desc: "Заполните форму и мы свяжемся с вами", popup_name: "Имя *", popup_surname: "Фамилия", popup_email: "Email *", popup_phone: "Телефон (WhatsApp / Telegram) *", popup_submit: "Отправить Заявку",
-            limited: "⚡ Количество мест строго ограничено ⚡", pricing_title: "Стоимость участия:", price1: "<s>500 RON</s>", price1_note: "первые 7 человек", price2: "<s>600 RON</s>", price2_note: "до 31 мая", price3: "700 RON", price3_note: "1 - 10 июня", price4: "1000 RON", price4_note: "последние 3 дня", hours_info: "📅 13-14 июня | 09:00 - 15:00 (Ежедневно)", book_btn: "🏃 ЗАБРОНИРОВАТЬ МЕСТО 🏃",
+            limited: "⚡ Количество мест строго ограничено ⚡", pricing_title: "Стоимость участия:", price1: "<s>500 RON</s>", price1_note: "первые 7 человек", price2: "<s>600 RON</s>", price2_note: "до 31 мая", hours_info: "📅 13-14 июня | 09:00 - 15:00 (Ежедневно)", book_btn: "🏃 ЗАБРОНИРОВАТЬ МЕСТО 🏃",
             footer_title: "Autoapărare Reală",
             group_training_text: "Для групповых занятий и индивидуальных тренировок пишите на почту или заполните заявку для обратной связи.",
-            group_btn: "Заполнить заявку"
+            group_btn: "Заполнить заявку",
+            signup_btn: "ЗАПИСАТЬСЯ НА ТРЕНИРОВКУ",
+            optional_note: "(необязательно)",
+            phone_note: "📱 Введите номер с кодом страны",
+            footer_copyright: "© 2026 Autoapărare Reală | Реальная Самооборона | Клуж-Напока, Румыния"
         },
         ro: {
             hero_slogan: "Scop • Sarcină • Soluție",
@@ -814,10 +817,14 @@
             schedule_title: "Orarul și locul desfășurării", schedule_subtitle: "📅 Orar:", travel2: "📍 Adresa exactă va fi trimisă după înregistrare", schedule_day1: "<strong>13 iunie:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 iunie:</strong> 09:00 - 15:00", schedule_total: "<strong>2 zile de învățare intensivă</strong>",
             form_title: "Formular de înregistrare", form_subtitle: "Practicum intensiv de 2 zile „Autoapărare Reală”", form_btn: "ÎNREGISTREAZĂ-TE LA PRACTICUM", form_note: "Pentru a participa la practicum, completați formularul și vă vom contacta pentru confirmare.",
             popup_title: "Înregistrare la practicum", popup_desc: "Completați formularul și vă vom contacta", popup_name: "Prenume *", popup_surname: "Nume de familie", popup_email: "Email *", popup_phone: "Telefon (WhatsApp / Telegram) *", popup_submit: "Trimite cererea",
-            limited: "⚡ Numărul de locuri este strict limitat ⚡", pricing_title: "Costul participării:", price1: "<s>500 RON</s>", price1_note: "primele 7 persoane", price2: "<s>600 RON</s>", price2_note: "până pe 31 mai", price3: "700 RON", price3_note: "1 - 10 iunie", price4: "1000 RON", price4_note: "ultimele 3 zile", hours_info: "📅 13-14 iunie | 09:00 - 15:00 (Zilnic)", book_btn: "🏃 REZERVĂ-ȚI LOCUL 🏃",
+            limited: "⚡ Numărul de locuri este strict limitat ⚡", pricing_title: "Costul participării:", price1: "<s>500 RON</s>", price1_note: "primele 7 persoane", price2: "<s>600 RON</s>", price2_note: "până pe 31 mai", hours_info: "📅 13-14 iunie | 09:00 - 15:00 (Zilnic)", book_btn: "🏃 REZERVĂ-ȚI LOCUL 🏃",
             footer_title: "Autoapărare Reală",
             group_training_text: "Pentru cursuri de grup și antrenamente individuale, scrieți pe email sau completați formularul pentru feedback.",
-            group_btn: "Completați formularul"
+            group_btn: "Completați formularul",
+            signup_btn: "ÎNSCRIE-TE LA ANTRENAMENT",
+            optional_note: "(opțional)",
+            phone_note: "📱 Introduceți numărul cu codul de țară",
+            footer_copyright: "© 2026 Autoapărare Reală | Cluj-Napoca, România"
         },
         en: {
             hero_slogan: "Goal • Task • Solution",
@@ -854,10 +861,14 @@
             schedule_title: "Schedule and venue", schedule_subtitle: "📅 Schedule:", travel2: "📍 Exact address will be sent after registration", schedule_day1: "<strong>June 13:</strong> 09:00 - 15:00", schedule_day2: "<strong>June 14:</strong> 09:00 - 15:00", schedule_total: "<strong>2 days of intensive training</strong>",
             form_title: "Registration Form", form_subtitle: "2-day intensive workshop \"Real Self-Defense\"", form_btn: "REGISTER FOR THE TRAINING", form_note: "To participate in the workshop, you must fill out the form and register. Fill out the form and we will contact you to confirm participation.",
             popup_title: "Workshop Registration", popup_desc: "Fill out the form and we will contact you", popup_name: "First name *", popup_surname: "Last name", popup_email: "Email *", popup_phone: "Phone (WhatsApp / Telegram) *", popup_submit: "Submit Application",
-            limited: "⚡ Limited number of places! ⚡", pricing_title: "Participation fee:", price1: "<s>500 RON</s>", price1_note: "first 7 people", price2: "<s>600 RON</s>", price2_note: "until May 31", price3: "700 RON", price3_note: "June 1-10", price4: "1000 RON", price4_note: "last 3 days", hours_info: "📅 June 13-14 | 09:00 - 15:00 (Daily)", book_btn: "🏃 BOOK YOUR SPOT 🏃",
+            limited: "⚡ Limited number of places! ⚡", pricing_title: "Participation fee:", price1: "<s>500 RON</s>", price1_note: "first 7 people", price2: "<s>600 RON</s>", price2_note: "until May 31", hours_info: "📅 June 13-14 | 09:00 - 15:00 (Daily)", book_btn: "🏃 BOOK YOUR SPOT 🏃",
             footer_title: "Real Self-Defense",
             group_training_text: "For group classes and individual training, write to email or fill out the feedback form.",
-            group_btn: "Fill out the form"
+            group_btn: "Fill out the form",
+            signup_btn: "SIGN UP FOR TRAINING",
+            optional_note: "(optional)",
+            phone_note: "📱 Enter number with country code",
+            footer_copyright: "© 2026 Autoapărare Reală | Real Self-Defense | Cluj-Napoca, Romania"
         },
         uk: {
             hero_slogan: "Мета • Завдання • Рішення",
@@ -894,10 +905,14 @@
             schedule_title: "Розклад та місце проведення", schedule_subtitle: "📅 Розклад:", travel2: "📍 Точна адреса буде надіслана після реєстрації", schedule_day1: "<strong>13 червня:</strong> 09:00 - 15:00", schedule_day2: "<strong>14 червня:</strong> 09:00 - 15:00", schedule_total: "<strong>2 дні інтенсивного навчання</strong>",
             form_title: "Форма Реєстрації", form_subtitle: "2-денний практикум-інтенсив «Реальна Самооборона»", form_btn: "ЗАРЕЄСТРУВАТИСЯ НА ПРАКТИКУМ", form_note: "Для участі в практикумі необхідно заповнити форму та зареєструватися. Заповніть форму і ми зв'яжемося з вами для підтвердження участі.",
             popup_title: "Реєстрація на практикум", popup_desc: "Заповніть форму і ми зв'яжемося з вами", popup_name: "Ім'я *", popup_surname: "Прізвище", popup_email: "Email *", popup_phone: "Телефон (WhatsApp / Telegram) *", popup_submit: "Надіслати заявку",
-            limited: "⚡ Кількість місць суворо обмежена ⚡", pricing_title: "Вартість участі:", price1: "<s>500 RON</s>", price1_note: "перші 7 осіб", price2: "<s>600 RON</s>", price2_note: "до 31 травня", price3: "700 RON", price3_note: "1 - 10 червня", price4: "1000 RON", price4_note: "останні 3 дні", hours_info: "📅 13-14 червня | 09:00 - 15:00 (Щодня)", book_btn: "🏃 ЗАБРОНЮВАТИ МІСЦЕ 🏃",
+            limited: "⚡ Кількість місць суворо обмежена ⚡", pricing_title: "Вартість участі:", price1: "<s>500 RON</s>", price1_note: "перші 7 осіб", price2: "<s>600 RON</s>", price2_note: "до 31 травня", hours_info: "📅 13-14 червня | 09:00 - 15:00 (Щодня)", book_btn: "🏃 ЗАБРОНЮВАТИ МІСЦЕ 🏃",
             footer_title: "Autoapărare Reală",
             group_training_text: "Для групових занять та індивідуальних тренувань пишіть на пошту або заповніть заявку для зворотного зв'язку.",
-            group_btn: "Заповнити заявку"
+            group_btn: "Заповнити заявку",
+            signup_btn: "ЗАПИСАТИСЯ НА ТРЕНУВАННЯ",
+            optional_note: "(необов'язково)",
+            phone_note: "📱 Введіть номер з кодом країни",
+            footer_copyright: "© 2026 Autoapărare Reală | Реальна Самооборона | Клуж-Напока, Румунія"
         }
     };
 
